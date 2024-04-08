@@ -1,3 +1,3 @@
-***### Michel, Santiago***
+***# Michel, Santiago***
 
-*** Numero de alumno: *** 23991/7
+***Numero de alumno:*** 23991/7
