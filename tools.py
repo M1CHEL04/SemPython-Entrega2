@@ -6,7 +6,7 @@ def create_dictionary (names, goals, goals_avoided, assists):
     return dictionary
 
 def get_topScorer (dictionary):
-    """Esta funcion recibe un diccionario con las estadisticas de los jugadores y retorna los datos del mayor goleador"""
+    """Esta funcion recibe un diccionario con las estadisticas de los jugadores y retornar el nombre y los goles del goleador/goleadora del"""
     max_goals=-1
     max_name=None
     max_ga=None
@@ -18,7 +18,7 @@ def get_topScorer (dictionary):
             max_ga=g_a
             max_a=a
     
-    return max_name,max_goals,max_ga,max_a
+    return max_name,max_goals
 
 
 def get_mostInfluentialPlayer(dictionary):
