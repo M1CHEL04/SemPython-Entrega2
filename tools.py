@@ -9,15 +9,10 @@ def get_topScorer (dictionary):
     """Esta funcion recibe un diccionario con las estadisticas de los jugadores y retornar el nombre y los goles del goleador/goleadora del"""
     max_goals=-1
     max_name=None
-    max_ga=None
-    max_a=None
     for name, (g,g_a,a) in dictionary.items():
         if max_goals < g:
             max_goals=g
-            max_name=name
-            max_ga=g_a
-            max_a=a
-    
+            max_name=name     
     return max_name,max_goals
 
 
